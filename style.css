@@ -134,16 +134,16 @@ body {
 
 .navbar-default .navbar-collapse { border:none }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #93d7f2;
+    color: #666;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
+    color: #93d7f2;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
+    color: #93d7f2;
     background-color: #0b87b8;
   }
 }
