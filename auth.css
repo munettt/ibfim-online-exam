@@ -1,4 +1,4 @@
-.login-main { margin-top:100px; background:#fff; padding:20px; position:relative;overflow:hidden}
+.login-main { margin-top:100px; background:#fff; padding:20px; position:relative; min-height:300px }
 
 .login-title
 {
@@ -30,8 +30,9 @@ img.user { height:40px; margin-right:10px }
 
 @media (max-width: 767px) {
 	.login-main { margin-top:50px }
-	.login-brand { padding-top:0 }
+	.login-brand { padding-top:0;  }
 	.login-wrapper { border:none }
+	.logo { height:60px; }
 }
 
 
@@ -69,3 +70,29 @@ img.user { height:40px; margin-right:10px }
   100% { transform: rotateZ(359deg); }
 }
 
+/* stacked */
+.stacked
+{
+ box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.stacked:before, .stacked:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.stacked:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.stacked:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
