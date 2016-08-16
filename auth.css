@@ -1,0 +1,35 @@
+.login-main { margin-top:100px; background:#fff; padding:20px; }
+
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+	margin-bottom:35px;
+}
+.logo
+{
+    height: 80px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.btn { border:0; border-radius:0; }
+.login-wrap { margin-top:50px }
+.login-wrap h1 { font-weight:300 }
+.login-brand { padding-top:50px }
+body { background:#efefef }
+.need-help { margin-top:10px; font-size:0.9em; color:#ccc; }
+.need-help:hover { color:#888 }
+.login-wrapper { border-left:1px solid #eee}
+
+.form-control{ margin-bottom:10px; padding:5px 10px !important; }
+.form-control::-webkit-input-placeholder { color: #ccc; }
+.form-control::-moz-placeholder { color: #ccc; }
+.form-control:-ms-input-placeholder { color: #ccc; }
+img.lock { height:22px; margin-right:10px; }
+img.user { height:40px; margin-right:10px }
+
+@media (max-width: 767px) {
+	.login-main { margin-top:50px }
+	.login-brand { padding-top:0 }
+	.login-wrapper { border:none }
+}
