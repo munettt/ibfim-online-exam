@@ -1,0 +1,54 @@
+
+#ol_main{
+    position: relative;
+    top:10px;
+}
+
+#ol_question{
+    width:80%;
+    margin-left: 25%;
+}
+
+
+#ol_block {
+    position: fixed;
+    float:left;
+    top: 155px;
+    width: 20%;
+    padding: 10px;
+    z-index:999;
+    -webkit-border-radius: 15px 10px 10px 10px;
+    -moz-border-radius: 15px 10px 10px 10px;
+    border-radius: 15px 10px 10px 10px;
+    border: 2px solid #26729a;
+    background-color: #fbfbfb;
+
+}
+
+#question_div { margin-top:10px; }
+.question-legend { margin:10px 0}
+.question-title { font-weight:700; color:#555; margin-bottom:5px; }
+.question-section { overflow:hidden;margin-bottom:10px; }
+.question-link a { float:left; padding:6px; background:#fff; width:40px; text-align:center; border:1px solid #ccc; margin:0 2px 2px 0; text-decoration:none }
+.question-link a:hover { background:#efefef }
+.question-link.answered a { background:#4ecd22; color:#fff; border-color:#37a312 }
+
+@keyframes highlight {
+    0% {
+        background: #f0f7ff
+    }
+    100% {
+        background: none;
+    }
+}
+
+.highlight .is-countdown {
+    border: 1px solid #e7b29b;
+    background-color: #ffeddd;
+}
+
+.highlight .countdown-amount { color: #f00; }
+
+#nav-progress { width:200px; margin-top:20px }
+#nav-progress .status { margin-right:5px; color:#ccc; }
+#nav-progress .progress { height:10px; margin-top:4px; }
